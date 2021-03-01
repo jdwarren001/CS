@@ -1,0 +1,26 @@
+n = 10000
+
+Unsorted Array:  
+Comparisons done: 0
+Swaps done: 0
+
+BubbleSort:  
+Comparisons done: 99980001
+Swaps done: 74896770
+
+Improved BubbleSort:  
+Comparisons done: 49995000
+Swaps done: 74896770
+
+Select Sort:  
+Comparisons done: 49995000
+Swaps done: 29970
+
+InsertSort:  
+Comparisons done: 24975589
+Swaps done: 24995587
+
+QuickSort:  
+Comparisons done: 196505
+Swaps done: 103959
+

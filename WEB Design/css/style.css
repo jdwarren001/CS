@@ -1,0 +1,115 @@
+
+.menu
+{
+    background-color: grey;
+    border: 2px solid black;
+}
+
+.menu::after
+{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.container
+{
+    margin: 0 auto;
+    width: 85%;
+}
+
+.titlehead
+{
+    float: left;
+    padding: 5px;
+}
+
+.titlelist
+{
+    float: right;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.titlelist li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 28px;
+
+    position: relative;
+}
+
+.titlelist a {
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.titlelist a:hover {
+    color: blue;
+}
+
+.titlelist a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: blue;
+
+    position: absolute;
+    top: 0;
+    width: 0%;
+
+    transition: all ease-in-out 350ms;
+}
+
+.titlelist a:hover::before {
+    width: 100%;
+}
+
+.border {
+    margin: 30px;
+    padding: 20px;
+    outline: black solid medium;
+    border: 20px solid blue;
+}
+
+.homepage
+{
+    text-align: center; 
+    background-color: white; 
+    font-size: large; 
+    font-family: cursive;
+}
+
+.heading
+{
+    padding: 5px;
+    background-color: rgb(151, 177, 224); 
+    border: 3px solid black;
+    border-radius: 2px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 2px 2px white;
+}
+
+.listhome
+{
+    margin: auto;
+    width: 50%;
+    border: 20px solid red;
+}
+
+.table
+{
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.table table {
+    border: 5px dashed gray;
+    margin: auto;
+}
+
+

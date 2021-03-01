@@ -1,0 +1,52 @@
+Set Universal: 
+ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+
+Set Vowel: 
+ A       E       I           O           U          
+
+Set My Name: 
+ A   C             J K     N O       S              
+
+_________________________________________________________
+
+
+Set elements in Union between Vowel Set and My Name Set: 
+ A   C   E       I J K     N O       S   U          
+
+Set elements in Intersection between Vowel Set and My Name Set: 
+ A                           O                      
+
+Set elements in the Difference from My Name Set to Vowel Set: 
+     C             J K     N         S              
+
+_________________________________________________________
+
+
+=>Elements in Vowel Set and My NameSet are not equal sets!
+Set Vowel
+ A       E       I           O           U          
+
+Set My Name
+ A   C             J K     N O       S              
+
+=>Elements in Vowel Set and Vowel Set are equal sets.
+Set elements are equal sets: 
+ A       E       I           O           U          
+
+_________________________________________________________
+
+
+=>Elements in Vowel Set are not a subset of My Name Set!
+Set Vowel
+ A       E       I           O           U          
+
+Set My Name
+ A   C             J K     N O       S              
+
+=>Elements in Vowel Set are a subset of Universal Set.
+Set Vowel
+ A       E       I           O           U          
+
+Set Universal
+ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+

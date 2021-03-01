@@ -1,0 +1,12 @@
+                 Binary Search Tree
+-----------------------------------------------------
+InOrder (Recursive): 
+	7 11 18 20 23 25 30 35 38 49 50 52 53 57 71 80 93 
+PostOrder (Recursive, delete 71): 
+	7 20 18 11 25 35 30 23 49 52 53 50 80 93 57 38 
+PreOrder (Recursive, delete 38-left subtree-): 
+	35 23 11 7 18 20 30 25 57 50 49 53 52 93 80 
+PreOrder (Iterative): 
+	35 23 11 7 18 20 30 25 57 50 49 53 52 93 80 
+InOrder (Iterative): 
+	7 11 18 20 23 25 30 35 49 50 52 53 57 80 93 

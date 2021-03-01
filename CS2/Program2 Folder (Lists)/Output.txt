@@ -1,0 +1,29 @@
+
+                       My School
+
+ ID   First     Last           Department          Salary
+---------------------------------------------------------
+1156  Luke      Skywalker      Astrophysics        200000
+2678  Sally     Handle         Geology              63500
+3966  Old       McDonald       Agriculture          75000
+4444  Zaria     Anderson       IT                   87220
+6053  Han       Solo           Marketing            95700
+7886  Antonio   Chang          History              45200
+8111  Grace     Hopper         Mathematics          53133
+9185  Henry     Thoreau        English              58000
+9943  Jorge     Gonzales       Biology              58750
+
+
+                       My School
+
+ ID   First     Last           Department          Salary
+---------------------------------------------------------
+1156  Luke      Skywalker      Astrophysics        200000
+2678  Sally     Handle         Geology              63500
+4444  Zaria     Anderson       IT                   87220
+6053  Han       Solo           Marketing            95700
+7676  Charles   Darwin         Biology              50000
+7886  Antonio   Chang          History              45200
+8111  Grace     Hopper         Mathematics          53133
+9185  Henry     Thoreau        English              58000
+9943  Jorge     Gonzales       Biology              58750

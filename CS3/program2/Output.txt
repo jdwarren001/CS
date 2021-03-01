@@ -1,0 +1,100 @@
+
+Doubly Linked List:
+
+Ordered By Name: 
+
+ ID   Name      
+--------------------
+3612  Becerra   
+3081  Fine      
+2835  Green     
+7231  Hall      
+9113  Henry     
+4485  Jackson   
+6161  Little    
+2135  Martinez  
+7099  Miller    
+1088  Ochoa     
+9822  Porter    
+5003  Putney    
+1915  Ripley    
+8111  Saltino   
+4022  Shim      
+7234  Solo      
+3333  Tran      
+5588  Umberger  
+
+
+Ordered By ID: 
+
+ ID   Name      
+--------------------
+1088  Ochoa     
+1915  Ripley    
+2135  Martinez  
+2835  Green     
+3081  Fine      
+3333  Tran      
+3612  Becerra   
+4022  Shim      
+4485  Jackson   
+5003  Putney    
+5588  Umberger  
+6161  Little    
+7099  Miller    
+7231  Hall      
+7234  Solo      
+8111  Saltino   
+9113  Henry     
+9822  Porter    
+
+
+Solo deleted: 
+
+Ordered By ID: 
+
+ ID   Name      
+--------------------
+1088  Ochoa     
+1915  Ripley    
+2135  Martinez  
+2835  Green     
+3081  Fine      
+3333  Tran      
+3612  Becerra   
+4022  Shim      
+4485  Jackson   
+5003  Putney    
+5588  Umberger  
+6161  Little    
+7099  Miller    
+7231  Hall      
+8111  Saltino   
+9113  Henry     
+9822  Porter    
+
+
+Payne Added: 
+
+Ordered By Name: 
+
+ ID   Name      
+--------------------
+3612  Becerra   
+3081  Fine      
+2835  Green     
+7231  Hall      
+9113  Henry     
+4485  Jackson   
+6161  Little    
+2135  Martinez  
+7099  Miller    
+1088  Ochoa     
+4020  Payne     
+9822  Porter    
+5003  Putney    
+1915  Ripley    
+8111  Saltino   
+4022  Shim      
+3333  Tran      
+5588  Umberger  

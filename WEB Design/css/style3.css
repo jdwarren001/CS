@@ -1,0 +1,162 @@
+
+
+body {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    line-height: 200%;
+}
+
+
+/* All web code */
+
+.titlebar {
+    font-size: 3vw;
+}
+
+img {
+    border: 3px outset grey;
+    margin: auto;
+    width: 100%;
+}
+
+.textbox {
+    margin: 20px;
+    padding: 30px;
+    font-size: large;
+    color: grey;
+    border-radius: 30px;
+    background-color: rgb(214, 214, 214);
+}
+
+.textcont {
+    background-image: url(../images/background.jpg);
+    width: 100%;
+}
+
+.textbox2 {
+    margin: 25px;
+    padding: 30px;
+    font-size: large;
+    font-weight: bold;
+    color: grey;
+    border-radius: 10px;
+    background-color: rgb(168, 252, 41);
+}
+
+.logo {
+    border-radius: 20px; 
+    border: 2px solid rgb(168, 252, 41); 
+    width: 100%; 
+    margin: auto;
+}
+
+h2 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+h2::after {
+    content: '';
+    display: block;
+    background: black;
+    height: 4px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+h3::after {
+    content: '';
+    display: block;
+    background: rgb(144, 230, 17);
+    height: 4px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+/* Home Page */
+
+.grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    justify-items: center;
+    align-items: center;
+}
+
+.jet, .logo, .heli{
+    width: 100%;
+    max-width: 300px;
+}
+
+.grid2 h2, .contact {
+    grid-column: 1 / 4;
+    width: 100%;
+}
+
+.background {
+    grid-column: 1 / 4;
+    width: 90%;
+    padding: 50px;
+    background-image: url(../images/background.jpg);
+}
+
+.jet, .heli {
+    margin: auto;
+}
+
+.grid2 .gridbar {
+    display: block;
+}
+
+.gridbar {
+    grid-column: 1 / 4;
+    grid-row: 4 / 5;
+    justify-items: center;
+    align-items: center;
+    width: 80%;
+    background-image: url(../images/background.jpg);
+    padding: 20px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.gridbar img {
+    max-width: 200px;
+    max-height: 400px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.contact {
+    margin: 30px;
+    border-top: 3px solid grey;
+}
+
+.contact p {
+    color: grey;
+    font-style: italic;
+} 
+
+/* Tech code */
+
+.gridtech {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: repeat(5, 300px);
+    justify-content: center;
+    align-items: center;
+}
+
+/* 4 Wheel Code */
+
+.grid4 {
+    display: grid;
+    margin-top: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    justify-items: center;
+    align-items: center;
+
+    grid-gap: 2em;
+}
