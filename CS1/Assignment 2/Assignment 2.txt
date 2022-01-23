@@ -1,0 +1,30 @@
+Assignment 2 
+
+Due at 11.59pm, Sunday, September 14
+
+
+Aim:
+To write a C++ program to solve a calculation problem, including typing in the program, debugging and testing.
+
+Procedure:
+You are employed as a programmer for a firm which manufactures talking clocks. The hardware division has developed two chips: the first generates the current day and month plus the number of seconds since midnight; the second speaks the date and time when provided with English text for data. Thus, for the due date and time above, chip one yields 09, 14 and 86340. The second chip can speak "eleven fifty nine p m on september fourteenth". Your task is to write the code to take the output of chip one and produce the input for chip two. 
+
+You need three algorithms to:
+1. Convert seconds to hours and minutes representing a time of day using a 12-hour clock.
+2. Convert a two-digit number into its text representation.
+3. Convert a numeric date into words.
+
+If you wish to get some practice at algorithm design, you may attempt to work out the algorithms.
+They can also be found in the document labelled algorithms.
+
+Now you are to develop the program to solve the problem, utilising the four algorithms designed above. Your program should
+1. Request a day and month and a number of seconds. (The year is not needed.)
+2. Use algorithm 1 to convert seconds to the hours and minutes of a 12 hour clock. 
+3. Print out the time in the form hh:mm x.m., for example, 11:59 P.M.
+4. Finally, using algorithm 2 and 3, print out the time and date in words. Note that times such as 10:15 would become "ten fifteen" while day 09/8 becomes "september eightth". Also 7:05 would be spoken as "seven oh five". Midnight is considered "twelve a m", while noon is "twelve p m". This will involve some cutting and pasting and removal of unnecessary cases, and the addition of a case to handle the situation of one digit minutes.
+
+You can use only that material in the course up to and including the switch statement. Finally program cannot include loops or arrays. This assignment is aimed at testing your understanding of expressions, assignment, along with the if and switch control structures.
+You will find the use of cut and paste to be most advantageous.
+
+Submission:
+Submit the file ass2.cpp

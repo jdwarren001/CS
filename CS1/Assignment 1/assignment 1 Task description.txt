@@ -1,0 +1,14 @@
+CSCI 111 Assignment 1
+
+Aim:
+To develop some algorithms, select some variable names (and learn about the C++ compiler).
+
+Procedure:
+Create a directory on your local storage and call it assignment 1
+You have a file called assignment1.txt. Copy the file to your assignment1 directory.
+
+Answer the questions in the file by inserting text into the file immediately after each question, unless specifically requested otherwise in the question. You may use any text editor you are familiar with, although it is suggested you familiarise yourself with a syntax-sensitive editor such as notepad++ or the code editor in your CodeBlocks.
+
+The final question refers to the C++ program artillery.cpp. Copy this file to your directory. Using your code writing IDE modify the program as described in the ass1.txt file. This involves adding a statement to the program representing the missing formula (some research needed).
+
+Compile your code, any syntax errors will be reported. If you have created any, correct them. If there are no errors, you can then run the program then transcribe the the answer to the final question into ass1.txt.

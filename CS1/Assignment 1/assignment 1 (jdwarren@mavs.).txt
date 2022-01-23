@@ -1,0 +1,118 @@
+//
+//  assignment1.cpp
+//  Least of three numbers
+//
+//  Created by Jackson Warren on 8/30/19.
+//  Copyright © 2019 Jackson Warren. All rights reserved.
+//
+
+Question 1:
+	Find the value for each of the following C++ expressions:	a. 30. + 10 – 15 / 2 
+								a. 33. b. 60. c.2. d.30	b. 10 + 25. * 2
+	c. 10 / 11 + 3. - 2 / 2	d. 24 * 5 / 4	
+	
+Question 2:
+	You are asked to instruct a primary school child how to find the smallest
+	of three numbers.  Using A, B and C to represent the three numbers, write
+	instructions for the child to perform the task.
+
+
+Given the numbers A, B, and C.
+If A is less than B
+	Keep A
+	Otherwise, keep B
+If C is less than number kept
+	C is the least number
+	Otherwise, number kept is least number
+
+	
+Question 3:
+	At the top of this file, write a suitable comment block for the head of a
+	program if you wrote one to perform the task in question 2.
+
+
+Question 4:
+	Find the value of each of the following expressions, or explain why it is not
+	a valid expression.  Place the answer on the line following each part.
+	(a) 9 - 5 - 4
+								a. 0
+	(b) 2 / 3 + 3 / 5
+								b. 0
+	(c) 9.0 / 2 / 5
+								c. 0.9
+	(d) 7 % 5 % 2
+								d. 0
+	(e) 25 * 1 / 2
+								e. 12
+	(f) 25 * 1.0 / 2
+								f. 12.5
+	(g) 25 * (1 / 2)
+								g. 0	
+	(h) ((12 + 3) / 2) / (8 - (5 + 1))
+								h. 3
+	(i) ((12 + 3) / 2) / (8 - 5 + 1)
+								i. 1
+	(j) (12 + 3 / 2) / (8 - 5 + 1)
+								j. 3
+
+Question 5:
+	Write C++ expressions to compute the following.  Place the answer on the
+	line following each part.
+	(a) 7 + 3B - 7AC
+							double A, B, C;
+							cout << 7 + (3 * B) - (7 * A * C);
+
+	(b) Five times the quantity m squared plus n squared divided by twice the difference 7 - m.
+					double m, n;
+					cout << 5 * ((m * m) + (n * n)) / (2 * (7 - m));
+		
+
+	(c) The radius of a circle whose area is A.
+
+						#include <cmath>
+						double A, r;
+   						const double pi = 3.14159;
+  						cout << "Area: ";
+    						cin >> A;
+    						r = sqrt(A / pi);
+    						cout << r << endl << endl;
+
+
+Question 6:
+	Artillery tables have been a standard application of computers for the last
+	couple of centuries.  (Computers were originally people who computed.)  These
+	tables displayed the required angle of tilt of a cannon so that the projectile
+	would achieve a certain distance, given initial muzzle velocity, wind speed, 
+	temperature, humidity, . . .
+	
+	Consider a simplified situation where initial velocity is the only parameter.
+	Thus the table need only display distance covered for specified tilt angle.
+	
+	A C++ program has been written to calculate the distance, given the initial
+	velocity and various angles.  The programmer, however, couldn't remember his
+	high school physics.  He left out the statement for calculating the vertical
+	distance covered in a certain number of seconds.  The formula is given on the
+	assignment sheet, with
+		s being the distance
+		u the initial vertical velocity
+		t the time since firing
+		g gravity.
+		
+	Look at the program, especially the variable names used by the programmer, and
+	type in the C++ statement needed.
+	
+	You want the missile to land as close as possible to 600 metres away.
+	Run the program to find the correct angle and the duration of the flight of the
+	projectile given a specific initial velocity determined from your student number.
+	If your number starts with 2, take the first four digits and divide it by 25 - or
+	multiply by 4 and divide by 100 (so for example 2123456 would become 84.92) and
+	for those students with numbers starting with 9 just divide by 100 (e.g. student 
+	number 9512345 uses 95.12)
+
+	Place the answer you determine here.
+	
+						My number was odd, so I 								did 7004/100= 70.04 mph at a 45 degrees. 						500.47 meters travelled in 10.1052 							seconds was my maximum potential distance.
+
+****
+	
+				 
