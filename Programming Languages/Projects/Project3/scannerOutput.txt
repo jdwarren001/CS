@@ -1,0 +1,62 @@
+BEGIN
+Comment: --SOMETHING UNUSUAL
+READ
+Lparen
+ID = A1
+Comma
+ID = New_A
+Comma
+ID = D
+Comma
+ID = B
+Rparen
+SemiColon
+ID = C
+AssignOp
+ID = A1
+PlusOp
+Lparen
+ID = New_A
+MinusOp
+ID = D
+Rparen
+MinusOp
+Number: 75
+SemiColon
+ID = New_C
+AssignOp
+Lparen
+Lparen
+ID = B
+MinusOp
+Lparen
+Number: 7
+Rparen
+PlusOp
+Lparen
+ID = C
+PlusOp
+ID = D
+Rparen
+Rparen
+Rparen
+MinusOp
+Lparen
+Number: 3
+MinusOp
+ID = A1
+Rparen
+SemiColon
+Comment: -- STUPID FORMULA
+WRITE
+Lparen
+ID = C
+Comma
+ID = A1
+PlusOp
+ID = New_C
+Rparen
+SemiColon
+Comment: -- WHAT ABOUT := B+D;
+END
+EofSym

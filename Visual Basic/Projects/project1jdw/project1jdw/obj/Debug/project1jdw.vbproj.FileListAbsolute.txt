@@ -1,0 +1,6 @@
+/Users/jacksonwarren/Projects/project1jdw/project1jdw/bin/Debug/project1jdw.exe
+/Users/jacksonwarren/Projects/project1jdw/project1jdw/bin/Debug/project1jdw.pdb
+/Users/jacksonwarren/Projects/project1jdw/project1jdw/obj/Debug/project1jdw.vbprojAssemblyReference.cache
+/Users/jacksonwarren/Projects/project1jdw/project1jdw/obj/Debug/project1jdw.vbproj.CoreCompileInputs.cache
+/Users/jacksonwarren/Projects/project1jdw/project1jdw/obj/Debug/project1jdw.exe
+/Users/jacksonwarren/Projects/project1jdw/project1jdw/obj/Debug/project1jdw.pdb
